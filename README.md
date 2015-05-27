@@ -1,35 +1,5 @@
 ## Getting Started
 
-#### Prerequisites
-
-You will need **git** to clone the material-start repository. You can get git from
-[http://git-scm.com/](http://git-scm.com/).
-
-We also use a number of node.js tools to initialize and test material-start. You must have node.js and
-its package manager (npm) installed.  You can get them from [http://nodejs.org/](http://nodejs.org/).
-
-#### Clone material-start
-
-To get you started you can simply clone `master` branch from the
-[Material-Start](https://github.com/angular/material-start) repository and install the dependencies:
-
-> NOTE: The `master` branch contains the traditional, ES5 implementation familiar to Angular developers.
-
-Clone the material-start repository using [git][git]:
-
-```
-git clone https://github.com/angular/material-start.git
-cd material-start
-```
-
-If you just want to start a new project without the material-start commit history then you can do:
-
-```bash
-git clone --depth=1 https://github.com/angular/material-start.git <your-project-name>
-```
-
-The `depth=1` tells git to only pull down one commit worth of historical data.
-
 #### Install Dependencies
 
 We have two kinds of dependencies in this project: tools and AngularJS framework code.  The tools help
